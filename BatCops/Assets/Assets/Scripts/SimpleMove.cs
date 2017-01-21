@@ -35,13 +35,14 @@ public class SimpleMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey("up"))
+
+		if(Input.GetKey("up") || Input.GetKey(KeyCode.W))
 			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+speed);
-		if(Input.GetKey("down"))
+		if(Input.GetKey("down") || Input.GetKey(KeyCode.S))
 			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z-speed);
-		if(Input.GetKey("left"))
+		if(Input.GetKey("left") || Input.GetKey(KeyCode.A))
 			transform.position = new Vector3(transform.position.x-speed,transform.position.y,transform.position.z);
-		if(Input.GetKey("right"))
+		if(Input.GetKey("right") || Input.GetKey(KeyCode.D))
 			transform.position = new Vector3(transform.position.x+speed,transform.position.y,transform.position.z);
 	}
 }
