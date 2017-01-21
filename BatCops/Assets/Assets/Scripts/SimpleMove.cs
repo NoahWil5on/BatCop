@@ -5,8 +5,9 @@ using UnityEngine;
 public class SimpleMove : MonoBehaviour {
 	public float speed;
     // Use this for initialization
-
+	public Vector3 startPos;
     public static SimpleMove instance = null;
+	public GameObject canvas;
 
     //Awake is always called before any Start functions
     void Awake()
@@ -24,9 +25,9 @@ public class SimpleMove : MonoBehaviour {
             Destroy(gameObject);
 
         //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+       // DontDestroyOnLoad(gameObject);
 
-
+		startPos = transform.position;
     }
 
     void Start () {
@@ -44,4 +45,8 @@ public class SimpleMove : MonoBehaviour {
 		if(Input.GetKey("right"))
 			transform.position = new Vector3(transform.position.x+speed,transform.position.y,transform.position.z);
 	}
+	/*public void Restart(){
+		transform.position = startPos;
+		//canvas.SetActive(false);
+	}*/
 }

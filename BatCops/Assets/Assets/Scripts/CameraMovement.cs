@@ -12,6 +12,7 @@ public class CameraMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		bat = SimpleMove.instance.gameObject;
 		position = transform.position;
 	}
 	
