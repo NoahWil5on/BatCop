@@ -7,8 +7,8 @@ public class Wander : MonoBehaviour {
     public float radius = 10.0f;//the radius of how far it will travel
     public float wanderT;//how loong the obj will wander for
 
-    private NavMeshAgent nav;
-    private float timer;//the timer of the wander
+    protected NavMeshAgent nav;
+    protected float timer;//the timer of the wander
 
     void Start()
     {

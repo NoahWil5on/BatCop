@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Wander1 : MonoBehaviour {
-    public float radius = 10.0f;//the radius of how far it will travel
-    public float wanderT;//how loong the obj will wander for
+public class Wander1 : Wander {
+    
     public GameObject door;
-    private NavMeshAgent nav;
-    private float timer;//the timer of the wander
+    public GameObject fleeingTarget;
+
+    public int multiplyBy = 5;
+    public float fleeRadius = 30.0f; // The radius of how close it has to be to fleeingTarget before it runs
+    
     private Vector3 newPos;
 
     void Start()
@@ -20,32 +22,28 @@ public class Wander1 : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        WanderAround();
+        float dist = Vector3.Distance(transform.position, fleeingTarget.transform.position);
+        if (dist > fleeRadius)
+        {
+            Seek();
+        }
+        else
+        {
+            Flee();
+        }
+    }
+    
+    public void Seek()
+    {
+        nav.SetDestination(door.transform.position);
+        //Debug.DrawLine(transform.position, newPos, Color.red);
+        timer = 0;
     }
 
-    public void WanderAround()
+    public void Flee()
     {
-
-            nav.SetDestination(door.transform.position);
-            Debug.DrawLine(transform.position, newPos, Color.red);
-            print("Position: " + transform.position);
-            print("Going to: " + newPos);
-            timer = 0;
-        
-    }
-
-
-    public Vector3 RandomLocNav(Vector3 currLoc, float dist, int layer)
-    {
-        Vector3 randDir = Random.insideUnitSphere * dist;
-
-        randDir += currLoc;
-
-        NavMeshHit hitting;
-
-        NavMesh.SamplePosition(randDir, out hitting, dist, layer);
-
-        return hitting.position;
+        Vector3 runTo = multiplyBy * (transform.position - fleeingTarget.transform.position);
+        nav.SetDestination(runTo);
     }
 
 }
