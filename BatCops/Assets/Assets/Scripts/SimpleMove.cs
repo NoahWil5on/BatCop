@@ -36,14 +36,16 @@ public class SimpleMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Vector3 newPos = transform.position;
 		if(Input.GetKey("up"))
-			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+speed);
+			newPos = new Vector3(newPos.x,newPos.y,newPos.z+speed);
 		if(Input.GetKey("down"))
-			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z-speed);
+			newPos = new Vector3(newPos.x,newPos.y,newPos.z-speed);
 		if(Input.GetKey("left"))
-			transform.position = new Vector3(transform.position.x-speed,transform.position.y,transform.position.z);
+			newPos = new Vector3(newPos.x-speed,newPos.y,newPos.z);
 		if(Input.GetKey("right"))
-			transform.position = new Vector3(transform.position.x+speed,transform.position.y,transform.position.z);
+			newPos = new Vector3(newPos.x+speed,newPos.y,newPos.z);
+		GetComponent<Rigidbody>().MovePosition(newPos);
 	}
 	/*public void Restart(){
 		transform.position = startPos;

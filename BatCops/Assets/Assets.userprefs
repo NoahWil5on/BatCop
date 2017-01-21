@@ -4,7 +4,7 @@
     <Files>
       <File FileName="Assets\Scripts\CameraMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Wander1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PauseBehavior.cs" Line="27" Column="22" />
+      <File FileName="Assets\Scripts\PauseBehavior.cs" Line="13" Column="17" />
       <File FileName="Assets\Scripts\SimpleMove.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ProjectorScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyFlash.cs" Line="1" Column="1" />
