@@ -36,31 +36,16 @@ public class SimpleMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-<<<<<<< HEAD
 		Vector3 newPos = transform.position;
-		if(Input.GetKey("up"))
+		if(Input.GetKey("up") || Input.GetKey(KeyCode.W))
 			newPos = new Vector3(newPos.x,newPos.y,newPos.z+speed);
-		if(Input.GetKey("down"))
+		if(Input.GetKey("down") || Input.GetKey(KeyCode.S))
 			newPos = new Vector3(newPos.x,newPos.y,newPos.z-speed);
-		if(Input.GetKey("left"))
+		if(Input.GetKey("left") || Input.GetKey(KeyCode.A))
 			newPos = new Vector3(newPos.x-speed,newPos.y,newPos.z);
-		if(Input.GetKey("right"))
+		if(Input.GetKey("right") || Input.GetKey(KeyCode.D))
 			newPos = new Vector3(newPos.x+speed,newPos.y,newPos.z);
 		GetComponent<Rigidbody>().MovePosition(newPos);
-=======
 
-		if(Input.GetKey("up") || Input.GetKey(KeyCode.W))
-			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+speed);
-		if(Input.GetKey("down") || Input.GetKey(KeyCode.S))
-			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z-speed);
-		if(Input.GetKey("left") || Input.GetKey(KeyCode.A))
-			transform.position = new Vector3(transform.position.x-speed,transform.position.y,transform.position.z);
-		if(Input.GetKey("right") || Input.GetKey(KeyCode.D))
-			transform.position = new Vector3(transform.position.x+speed,transform.position.y,transform.position.z);
->>>>>>> c3f23c42da1b5b74b868eb5e335c5412f46529aa
 	}
-	/*public void Restart(){
-		transform.position = startPos;
-		//canvas.SetActive(false);
-	}*/
 }
