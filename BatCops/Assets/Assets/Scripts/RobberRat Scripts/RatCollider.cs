@@ -18,10 +18,8 @@ public class RatCollider : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        print("RatCollider Collision");
         if (other.CompareTag("Player"))
         {
-            print("DEAD");
             robberRat.GetComponent<Wander1>().Dead = true;
         }
     }

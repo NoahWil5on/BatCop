@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-enum ratStates
+public enum ratStates
 {
     initialWander,
     flee,
@@ -20,16 +20,16 @@ public class Wander1 : Wander {
     public float fleeRadius = 30.0f; // The radius of how close it has to be to fleeingTarget before it runs
     
     private Vector3 newPos;
-    private bool isFleeing;  // Checks to see if this GameObject should be fleeing now or not
     private bool dead;
+
+    // Parts for the Finite State Machine
     private ratStates fsm;
+    private float timePassed;
+    private bool hasWandered;
 
-
-    public bool IsFleeing
-    {
-        get { return isFleeing; }
-        set { isFleeing = value; }
-    }
+    public float controlledWander = 60.0f;   // Can manually change amount of time passing
+    public float controlledTimedWander = 5.0f;
+    
 
     public bool Dead
     {
@@ -37,14 +37,22 @@ public class Wander1 : Wander {
         set { dead = value; }
     }
 
+    public ratStates FSM
+    {
+        get { return fsm; }
+        set { fsm = value; }
+    }
+
+
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
         timer = wanderT;
-        isFleeing = false;
         dead = false;
 
         fsm = ratStates.initialWander;
+        timePassed = 0.0f;
+        hasWandered = false;
     }
 
     // Update is called once per frame
@@ -52,20 +60,36 @@ public class Wander1 : Wander {
     {
         if(fsm == ratStates.initialWander)
         {
+            print("FSM: initial wander");
+            timePassed += Time.deltaTime;
 
+            WanderAround();
+            if(timePassed > controlledWander)
+            {
+                fsm = ratStates.seek;
+                timePassed = 0;
+            }
         }
-        if (isFleeing)
+        else if(fsm == ratStates.flee)
         {
+            print("FSM: flee");
             Flee();
+        }
+        else if(fsm == ratStates.timedWander)
+        {
+            print("FSM: timed wander");
+            timePassed += Time.deltaTime;
+
+            WanderAround();
+            if(timePassed > controlledTimedWander)
+            {
+                fsm = ratStates.seek;
+            }
         }
         else
         {
+            print("FSM: seek");
             Seek();
-        }
-
-        if (dead)
-        {
-
         }
     }
     
@@ -85,7 +109,14 @@ public class Wander1 : Wander {
         float dist = Vector3.Distance(transform.position, fleeingTarget.transform.position);
         if (dist > fleeRadius)
         {
-            isFleeing = false;
+            if (!hasWandered)
+            {
+                fsm = ratStates.timedWander;
+            }
+            else
+            {
+                fsm = ratStates.seek;
+            }
         }
     }
 }
