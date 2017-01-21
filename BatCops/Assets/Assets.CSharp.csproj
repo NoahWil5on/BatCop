@@ -84,15 +84,16 @@
     <Compile Include="Assets\Reaktion\Utility\ConstantMotion.cs" />
     <Compile Include="Assets\Reaktion\Utility\JitterMotion.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\EndManager.cs" />
     <Compile Include="Assets\Scripts\EnemyFlash.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PauseBehavior.cs" />
     <Compile Include="Assets\Scripts\ProjectorScript.cs" />
     <Compile Include="Assets\Scripts\RobberRat Scripts\RatCollider.cs" />
     <Compile Include="Assets\Scripts\RobberRat Scripts\SimpleMove.cs" />
+    <Compile Include="Assets\Scripts\RobberRat Scripts\SpotPlayer.cs" />
     <Compile Include="Assets\Scripts\RobberRat Scripts\Wander.cs" />
     <Compile Include="Assets\Scripts\RobberRat Scripts\Wander1.cs" />
-    <Compile Include="Assets\Scripts\SpotPlayer.cs" />
     <Compile Include="Assets\Scripts\StupidFix.cs" />
     <Compile Include="Assets\Scripts\Vehicle.cs" />
     <Compile Include="Assets\SonarFx\SonarFx.cs" />
