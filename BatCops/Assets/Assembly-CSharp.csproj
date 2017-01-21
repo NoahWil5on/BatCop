@@ -49,6 +49,7 @@
      <Compile Include="Assets\Reaktion\Utility\ConstantMotion.cs" />
      <Compile Include="Assets\Reaktion\Utility\JitterMotion.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\EndManager.cs" />
      <Compile Include="Assets\Scripts\EnemyFlash.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PauseBehavior.cs" />
