@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpotPlayer : MonoBehaviour {
+public class RatCollider : MonoBehaviour {
 
     public GameObject robberRat;
 
@@ -20,8 +20,7 @@ public class SpotPlayer : MonoBehaviour {
     {
         if (other.CompareTag("Player"))
         {
-            print("FOUND PLAYER");
-            robberRat.GetComponent<Wander1>().IsFleeing = true;
+            robberRat.GetComponent<Wander1>().Dead = true;
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RatCollider : MonoBehaviour {
+public class SpotPlayer : MonoBehaviour {
 
     public GameObject robberRat;
 
@@ -18,11 +18,9 @@ public class RatCollider : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        print("RatCollider Collision");
         if (other.CompareTag("Player"))
         {
-            print("DEAD");
-            robberRat.GetComponent<Wander1>().Dead = true;
+            robberRat.GetComponent<Wander1>().FSM = ratStates.flee;
         }
     }
 }
