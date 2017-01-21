@@ -36,7 +36,7 @@ public class PauseBehavior : MonoBehaviour {
 	}
 	public void Restart(){
 		SimpleMove.instance.gameObject.AddComponent<BoxCollider>();
-		UnityEngine.SceneManagement.SceneManager.LoadScene("Test");
+		UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("Batcops");
 		//UnityEngine.SceneManagement.SceneManager.LoadScene("Batcops");
 	}
 	public void VoiceCheck(){

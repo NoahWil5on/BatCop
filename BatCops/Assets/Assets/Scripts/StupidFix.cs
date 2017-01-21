@@ -6,7 +6,7 @@ public class StupidFix : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		UnityEngine.SceneManagement.SceneManager.LoadScene("Batcops");
+		//UnityEngine.SceneManagement.SceneManager.LoadScene("Batcops",UnityEngine.SceneManagement.LoadSceneMode.Sinlge);
 	}
 	
 	// Update is called once per frame

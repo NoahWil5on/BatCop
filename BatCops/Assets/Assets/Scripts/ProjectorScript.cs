@@ -47,7 +47,7 @@ public class ProjectorScript : MonoBehaviour {
             {
                 myProj.orthographicSize += 0.05f;
                 
-                Collider[] cols = Physics.OverlapCapsule(SimpleMove.instance.transform.position, transform.position, myProj.orthographicSize, 1 << LayerMask.NameToLayer("Enemy")| 1 <<  LayerMask.NameToLayer("Walls"));
+                Collider[] cols = Physics.OverlapCapsule(SimpleMove.instance.transform.position, transform.position, myProj.orthographicSize, 1 << LayerMask.NameToLayer("Enemy")| 1 <<  LayerMask.NameToLayer("Wall"));
                 foreach(Collider col in cols)
                 {
                     col.gameObject.GetComponent<EnemyFlash>().Temp();
