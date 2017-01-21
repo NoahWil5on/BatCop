@@ -30,8 +30,6 @@ public class Wander : MonoBehaviour {
             Vector3 newPos = RandomLocNav(this.transform.position, radius, -1);
             nav.SetDestination(newPos);
             Debug.DrawLine(transform.position, newPos, Color.red);
-            print("Position: " + transform.position);
-            print("Going to: " + newPos);
             timer = 0;
         }
     }
