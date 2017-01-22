@@ -14,6 +14,6 @@ public class EndManager : MonoBehaviour {
 		
 	}
 	public void End(){
-		UnityEngine.SceneManagement.SceneManager.LoadScene("GoodEnd");
+		UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScene");
 	}
 }

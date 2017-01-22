@@ -12,6 +12,10 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		while(!enemy){
+			enemy = GameObject.FindGameObjectWithTag("Enemy");
+		}
+		print(Vector3.Magnitude(enemy.transform.position-transform.position));
 		if(Mathf.Abs(Vector3.Magnitude(enemy.transform.position-transform.position)) < distanceDetect){
 			UnityEngine.SceneManagement.SceneManager.LoadScene("GoodEnd");
 		}
