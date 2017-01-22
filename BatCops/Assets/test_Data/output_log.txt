@@ -1,0 +1,383 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 680 (ID=0x1180)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  1.803 seconds
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: Z:\IGMProfile\Desktop\GGJBatCop\BatCopS\Assets\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.119856 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1940 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.717326 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 350.
+Total: 0.285297 ms (FindLiveObjects: 0.054044 ms CreateObjectMapping: 0.032142 ms MarkObjects: 0.180337 ms  DeleteObjects: 0.018204 ms)
+
+The referenced script on this Behaviour (Game Object 'Projector') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.372621 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1009.
+Total: 0.520532 ms (FindLiveObjects: 0.074808 ms CreateObjectMapping: 0.034986 ms MarkObjects: 0.395092 ms  DeleteObjects: 0.015075 ms)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 14.63845
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 14.63845
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 14.63845
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 14.63845
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 13.77608
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 12.53666
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 10.95667
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 8.788508
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 6.407156
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 4.128947
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 2.293152
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Look rotation viewing vector is zero
+ 
+(Filename:  Line: 92)
+
+Distance: 1.539399
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+FSM: initial wander
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.011198 ms
+
+Unloading 222 unused Assets to reduce memory usage. Loaded Objects now: 371.
+Total: 0.674701 ms (FindLiveObjects: 0.046933 ms CreateObjectMapping: 0.038399 ms MarkObjects: 0.179484 ms  DeleteObjects: 0.409030 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.354132 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 389.
+Total: 0.290701 ms (FindLiveObjects: 0.033564 ms CreateObjectMapping: 0.024746 ms MarkObjects: 0.214470 ms  DeleteObjects: 0.017351 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Component:get_transform ()
+  at ProjectorScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

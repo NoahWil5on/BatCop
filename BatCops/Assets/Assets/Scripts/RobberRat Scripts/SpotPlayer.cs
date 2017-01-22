@@ -20,7 +20,7 @@ public class SpotPlayer : MonoBehaviour {
     {
         if (other.CompareTag("Player"))
         {
-            robberRat.GetComponent<Wander1>().FSM = ratStates.flee;
+            robberRat.GetComponent<SeekFlee>().FSM = ratStates.flee;
         }
     }
 }

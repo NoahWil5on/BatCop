@@ -4,20 +4,30 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 	private GameObject enemy;
+    public GameObject player;
+
 	public float distanceDetect;
 	// Use this for initialization
 	void Start () {
 		enemy = GameObject.FindGameObjectWithTag("Enemy");
+        player = GameObject.FindGameObjectWithTag("Player");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		while(!enemy){
-			enemy = GameObject.FindGameObjectWithTag("Enemy");
-		}
-		print("Distance: " + Vector3.Magnitude(enemy.transform.position-transform.position));
-		if(Mathf.Abs(Vector3.Magnitude(enemy.transform.position-transform.position)) < distanceDetect){
-			UnityEngine.SceneManagement.SceneManager.LoadScene("GoodEnd");
-		}
 	}
+    void OnTriggerEnter(Collider coll)
+    {
+        if (!player.GetComponent<Backstab>().BackColl)
+        {
+            if (player.GetComponent<Backstab>().RatColl)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("DeadEnding");
+            }
+            else if (coll.CompareTag("Enemy"))
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("GoodEnd");
+            }
+        }
+    }
 }
