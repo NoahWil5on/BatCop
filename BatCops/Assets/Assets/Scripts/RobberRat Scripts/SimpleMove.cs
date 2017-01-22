@@ -40,7 +40,6 @@ public class SimpleMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		newTurn = false;
 		Vector3 newPos = transform.position;
 
 		if(Input.GetKey("up") || Input.GetKey(KeyCode.W)){
