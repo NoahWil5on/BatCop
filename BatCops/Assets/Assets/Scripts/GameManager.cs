@@ -6,8 +6,10 @@ public class GameManager : MonoBehaviour {
 
     //------------------------------------------------------------------------------>>FIELDS<<
     // Robber Rat
-    public GameObject robberRat;
+    public GameObject robberRat, RRPrefab;
 
+    [SerializeField]
+    GameObject[] SpawnLocations;
     // Array of all exit points the Rat Thief is going for
     private List<GameObject> exitPoints;
 
@@ -16,6 +18,10 @@ public class GameManager : MonoBehaviour {
     //------------------------------------------------------------------------------>>CONSTRUCTOR<<
     // Use this for initialization
     void Start () {
+
+        //spawn da rat
+        int spawnLoc = Random.Range(0, SpawnLocations.Length);
+        robberRat = Instantiate(RRPrefab, SpawnLocations[spawnLoc].transform.position, SpawnLocations[spawnLoc].transform.rotation);
         // Adds all exit points to a private array list - used for Rat Thief's pathfinding
         exitPoints = new List<GameObject>();
         foreach(GameObject g in GameObject.FindGameObjectsWithTag("ExitPoint"))
