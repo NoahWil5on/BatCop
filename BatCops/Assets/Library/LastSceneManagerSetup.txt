@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Batcops.unity
-=======
-- path: Assets/Scenes/NavMeshTest.unity
->>>>>>> 321da237f0e607631a43cffaa873489980692fc0
+- path: Assets/Scenes/MapScene.unity
   isLoaded: 1
   isActive: 1
