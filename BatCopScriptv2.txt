@@ -1,0 +1,86 @@
+﻿Opening Cutscene
+
+
+Bat Cop: (internal) I knew I was in for trouble when the chief called me into the office that evening.
+
+
+Fat Cat: Alright, Bat Cop. Here’s the scoop. We finally tracked down that thief who’s been stealing all the cheese. Dirty Rat is a known cheddar runner who is hiding out in the warehouse district. It’s your job to go and catch him.
+Bat Cop: Am I going to have any backup on this one, chief?
+Fat Cat: Backup? For one scrawny rat? Yer both rodents, this should be an easy collar.
+Bat Cop: (internal) I didn’t correct his mistake. (external) I don’t know, chief, this seems like an awfully big operation for a small time player like Dirty Rat. Something doesn’t add up.
+Fat Cat: Do I pay you to think, Bat Cop? NO! I pay you to follow orders, and your ORDERS are to bring that rat to me. And if you don’t, it’s your badge! Now go get him.
+
+
+Level Start
+
+
+Bat Cop: (internal) I step out of the rain-slicked streets of Manbattan into the dust-choked warehouse on the wharf. My ears were twitching, because nothing about this made sense. But orders are orders. I have to sneak up on this rat and catch him without tipping him off with my sonar.
+
+
+Bat Cop and Dirty Rat See Each Other
+
+
+Bat Cop: Hold it right there, ya fink!
+Dirty Rat: Cheese it! The fuzz is here!
+Bat Cop: (internal) Rats. Now I have to chase him into a corner before he gets to the exit. And a cornered rat always fights the hardest. This is going to be ugly.
+
+
+Bat End (Dirty Rat Escapes)
+
+
+Dirty Rat: Too late, Bat Cop! You’ll never find me now!
+Bat Cop: (internal) I hated to admit it, but he was right. Time to report back to the chief.
+
+
+Fade to final screen with Bat Cop handing over his badge
+
+
+Fat Cat: I can’t believe you let him get away. You’re finished, Bat Cop. You ruffled too many feathers and now you can’t even bring in a small time crook like Dirty Rat. I need your badge.
+
+
+Alternate Bad End (Dirty Rat kills Bat Cop)
+
+
+Bat Cop: Arrgh!
+Dirty Rat: Should’ve known better than to corner me, copper! Now you’ll sleep with the fishes!
+
+
+Good End (Bat Cop Catches Dirty Rat)
+
+
+Bat Cop: Gotcha! You’re under arrest, Rat.
+Dirty Rat: Wait! I’m being set up! You have to believe me! I’m just a small time guy. You turn me in, and I’m kitty litter.
+Bat Cop: Save it. You’re coming in with me.
+
+
+Fade to screen with Fat Cat congratulating Bat Cop
+
+
+Fat Cat: Good job, Bat Cop. You didn’t let me down for a change.
+Bat Cop: All in a day’s work, sir. Something still doesn’t feel right, though.
+Fat Cat: Every day with you. Look. You’re a cop. He’s a crook. He’s in jail now. It’s that simple, right? Black and white.
+Bat Cop: (internal) Yeah, and in my experience, things always come in shades of gray.
+
+
+Final newspaper header with Dirty Rat behind bars
+
+
+Potential Secret Ending (Bat Cop finds evidence AND catches Dirty Rat)
+
+
+This is just an idea for an optional challenge if we have time. Feel free to cut.
+
+
+Bat Cop: Gotcha! You’re under arrest, Rat.
+Dirty Rat: Wait! I’m being set up! You have to believe me! I’m just a small time guy. You turn me in, and I’m kitty litter.
+Bat Cop: Talk.
+
+
+Fade to same screen as Bad End scene, but with different dialogue
+
+
+Fat Cat: I can’t believe you let him get away. You’re finished, Bat Cop. You ruffled too many feathers and now you can’t even bring in a small time crook like Dirty Rat. I need your badge.
+Bat Cop: You can have it. I’m finished working for a dirty cop like you. I know you’re the real mastermind behind the cheese smuggling, and now the Dark Times knows about it too. You’re going down, Fat Cat.
+
+
+Final newspaper header with Fat Cat behind bars
