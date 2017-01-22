@@ -11,7 +11,10 @@ public class DialogueScript : MonoBehaviour {
     public Text text;
     [SerializeField]
     string[] strings;
-
+    [SerializeField]
+    Sprite[] sprites; //bat is 0, cat is 1
+    [SerializeField]
+    Image image;
     int curClip = 0;
 	// Use this for initialization
 	void Start () {
@@ -31,7 +34,31 @@ public class DialogueScript : MonoBehaviour {
             curClip += 1;
 
         }
-        if(curClip >= 6)
+        if(curClip == 1)
+        {
+            image.sprite = sprites[0];
+        }
+        if (curClip == 2)
+        {
+            image.sprite = sprites[1];
+        }
+        if (curClip == 3)
+        {
+            image.sprite = sprites[0];
+        }
+        if (curClip == 4)
+        {
+            image.sprite = sprites[1];
+        }
+        if (curClip == 5)
+        {
+            image.sprite = sprites[0];
+        }
+        if (curClip == 6)
+        {
+            image.sprite = sprites[1];
+        }
+        if (curClip >= 7)
         {
             SceneManager.LoadScene("Batcops");
         }
