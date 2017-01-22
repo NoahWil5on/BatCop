@@ -18,6 +18,7 @@ public class Wander1 : Wander {
 
     public int multiplyBy = 5;
     public float fleeRadius = 30.0f; // The radius of how close it has to be to fleeingTarget before it runs
+	public float detectDist;
     
     private Vector3 newPos;
     private bool dead;
@@ -91,6 +92,9 @@ public class Wander1 : Wander {
             print("FSM: seek");
             Seek();
         }
+		if(Mathf.Abs(Vector3.Magnitude(door.transform.position-transform.position)) < detectDist){
+			UnityEngine.SceneManagement.SceneManager.LoadScene("BadEnd");
+		}
     }
     
     public void Seek()
