@@ -19,4 +19,7 @@ public class TitleBehavior : MonoBehaviour {
 	public void EndGame(){
 		Application.Quit();
 	}
+	public void Credits(){
+		UnityEngine.SceneManagement.SceneManager.LoadScene("Credits");
+	}
 }
