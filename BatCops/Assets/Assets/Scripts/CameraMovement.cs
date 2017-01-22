@@ -24,7 +24,7 @@ public class CameraMovement : MonoBehaviour {
 
 	void MoveTowards(){
 		Vector3 goal = Vector3.Lerp(transform.position,bat.transform.position,.1f);
-		transform.position = new Vector3(goal.x,position.y,goal.z);
+		transform.position = new Vector3(goal.x,position.y,goal.z-.6f);
 	}
 
 	float DistanceSqr(Vector3 target){
