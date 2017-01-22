@@ -13,7 +13,7 @@ public enum ratStates
 
 public class Wander1 : Wander {
     
-    public GameObject door;
+    private GameObject door;
     public GameObject fleeingTarget;
 
     public int multiplyBy = 5;
@@ -47,6 +47,7 @@ public class Wander1 : Wander {
 
     void Start()
     {
+		door = GameObject.Find("Door");
         nav = GetComponent<NavMeshAgent>();
         timer = wanderT;
         dead = false;
